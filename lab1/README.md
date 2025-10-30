@@ -42,7 +42,7 @@ For this lab, we will be working with the **hello_world** example Noir project.
 
 ### About Noir and `nargo`
 
-Noir is a language designed for writing **zero-knowledge circuits**. These circuits are functions that can proved in a zero-knowledge proof. At its core, Noir is a _compiler_ that turns Rust-like code into a constraint system: a mathematical representation of a function. Many zero-knowledge proof systems require the statement to be formatted in a constraint system form. Noir does not generate or verify zero-knowledge proofs -- later on in the lab we'll use that we'll use Barretenberg to do that.
+Noir is a language designed for writing **circuits for zero-knowledge proofs**. These circuits are functions that can proved in a zero-knowledge proof. At its core, Noir is a _compiler_ that turns Rust-like code into a constraint system: a mathematical representation of a function. Many zero-knowledge proof systems require the statement to be formatted in a constraint system form. Noir does not generate or verify zero-knowledge proofs -- later on in the lab we'll use that we'll use Barretenberg to do that.
 
 Noir can also generate **witnesses** that are compliant with the same constraint system. A witness is a ZK term for the prover's secrets.
 
@@ -239,7 +239,7 @@ This command does the following:
 
 This is the public input. Paste this into Remix. The Verifier contract expects the public input to be a list, so you'll need to put square brackets ([]) around this input. 
 
-Now, call `Verify()`.
+Now, call `Verify()` from Remix.
 
 
 #### Verify Function Success and Remix Behavior
