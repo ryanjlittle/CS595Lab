@@ -110,11 +110,11 @@ This command will:
 With both the compiled circuit and witness, you’re now ready to generate a zero-knowledge proof.
 
 
-## ⚙️ Using the Barretenberg CLI (`bb`)
+## Using the Barretenberg CLI (`bb`)
 
 Different proving backends may offer different tools and commands. For Barretenberg, the CLI tool `bb` is used to generate and verify proofs.
 
-### 🧪 Verifying Backend Setup
+### Verifying Backend Setup
 
 You can confirm that Barretenberg is properly installed by running:
 
