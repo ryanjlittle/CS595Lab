@@ -1,6 +1,0 @@
-[package]
-name = "credit_score"
-type = "bin"
-authors = [""]
-
-[dependencies]
