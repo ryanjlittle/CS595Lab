@@ -9,9 +9,9 @@ RUN curl -L https://raw.githubusercontent.com/noir-lang/noirup/main/install | ba
 ENV PATH="/root/.nargo/bin:$PATH"
 
 # Install nargo via noirup
-RUN noirup
+RUN noirup -v 1.0.0-beta.13
 
-# Install Barretenberg backend and set backend to Barretenberg v 0.82.0
+# Install Barretenberg backend and set backend to Barretenberg v 0.82.2
 RUN curl -L https://raw.githubusercontent.com/AztecProtocol/aztec-packages/refs/heads/master/barretenberg/bbup/install | bash && \
     bash -c "source ~/.bashrc && bbup -v 0.82.2"
 
