@@ -12,7 +12,6 @@ Hands‑on labs and homework assignments that teach modern zero‑knowledge proo
 | -------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | **lab1**       | Build a hello‑world circuit, generate a proof, auto‑generate a Solidity verifier, and deploy on Ethereum with Remix | Noir, `nargo`, Barretenberg CLI                               |
 | **lab2**       | Develop more involved circuits using Merkle trees: prove a credit‑score > 500 and verify Merkle inclusion           | Pedersen hash, custom TypeScript Merkle‑tree tooling          |
-| **hw5**    (WIP! Not posted yet)    | Implement a Tornado‑style mixer (“Whirlwind”) with privacy‑preserving deposit & withdrawal                          | Dual Noir circuits → Solidity verifiers, mixer smart contract |
 
 A pre‑configured **`.devcontainer/`** supplies Noir, VS Code extensions, pinned Barretenberg binaries, and a post‑create sanity check.
 
